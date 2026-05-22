@@ -64,7 +64,7 @@ src/app/
 
 <div align="center">
 
-**🎲 AI Dungeon Master** — Built with Next.js 14 & MiMo AI
+**🎲 QuestFi AI V3.0** — Built with Next.js 14 & MiMo AI by [ramdantukangngahuntu1](https://github.com/ramdantukangngahuntu1)
 
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)](https://typescriptlang.org)
