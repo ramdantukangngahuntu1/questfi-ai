@@ -60,6 +60,23 @@ src/app/
 4. Explore the dungeon, fight monsters, find treasure!
 5. Your progress is saved automatically
 
+## 📸 Screenshots
+
+### 🗺️ Dungeon Map — Visual Grid Exploration
+![Dungeon Map](proofs/01-dungeon-map.png)
+
+### ⚔️ Combat System — Turn-Based Battles
+![Combat System](proofs/01-combat-system.png)
+
+### ⚒️ Crafting System — Forge Legendary Gear
+![Crafting System](proofs/02-crafting.png)
+
+### 💀 Boss Fights — Phased Battles with Special Abilities
+![Boss Fights](proofs/03-boss-fights.png)
+
+### 📋 Full Feature Overview
+![Full Overview](proofs/04-full-overview.png)
+
 ---
 
 <div align="center">
