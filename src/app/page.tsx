@@ -940,6 +940,13 @@ export default function DungeonMaster() {
           </div>
         )}
       </main>
+
+      {/* Footer */}
+      <footer className="border-t border-gray-800 py-4 mt-8">
+        <div className="max-w-5xl mx-auto px-4 text-center text-xs text-gray-600">
+          Built with ⚔️ by <a href="https://github.com/ramdantukangngahuntu1" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-yellow-500 transition-colors">ramdantukangngahuntu1</a>
+        </div>
+      </footer>
     </div>
   );
 }
