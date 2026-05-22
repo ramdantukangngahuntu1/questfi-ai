@@ -187,6 +187,13 @@ export default function DungeonMaster() {
 
   useEffect(() => { localStorage.setItem("dm_character", JSON.stringify(character)); }, [character]);
 
+  // Detect provider on mount
+  useEffect(() => {
+    fetch("/api/generate?action=status").then((r) => r.json()).then((d) => {
+      if (d.provider) setProvider(d.provider);
+    }).catch(() => {});
+  }, []);
+
   const startNewSession = () => {
     setSessionId("dm_" + Date.now()); setMessages([]); setQuests([]); setParty([]);
     setCharacter(DEFAULT_CHARACTER);

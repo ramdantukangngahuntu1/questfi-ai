@@ -280,6 +280,12 @@ export async function GET(req: NextRequest) {
   const url = new URL(req.url);
   const action = url.searchParams.get("action");
 
+  // Provider status check
+  if (action === "status") {
+    const provider = USE_GROQ ? "Groq" : USE_MIMO ? "MiMo" : "Demo";
+    return NextResponse.json({ provider });
+  }
+
   if (action === "encounter") {
     const level = parseInt(url.searchParams.get("level") || "1");
     let pool: typeof ENEMIES = ENEMIES.filter((e) => e.tier === "common");
