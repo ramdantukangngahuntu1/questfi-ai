@@ -2,6 +2,11 @@
 
 > AI-powered GameFi dungeon crawler. Unique adventures every playthrough.
 
+[![Netlify](https://img.shields.io/badge/Netlify-Deployed-00C7B7?logo=netlify&logoColor=white)](https://questfi-ai-v3.netlify.app/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Try_Now-00C7B7?logo=netlify)](https://questfi-ai-v3.netlify.app/)
+
+✅ **Project is live and tested!** Deployed on Netlify with Groq API (Llama 3.3 70B) — all features working.
+
 Built with **Next.js 14**, **TypeScript**, **Tailwind CSS**, and powered by **Llama 3.3 70B** (Groq) with MiMo fallback.
 
 ## ✨ Features
